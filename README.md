@@ -53,7 +53,7 @@ FacetGrid is the general way to create grids of plots based off of a feature: hi
 
 g = sns.FacetGrid(tips, col="time",  row="smoker",hue='sex')
 
-# Notice the TWO arguments come after plt.scatter call
+Notice the TWO arguments come after plt.scatter call
 
 g = g.map(plt.scatter, "total_bill", "tip").add_legend()
 
