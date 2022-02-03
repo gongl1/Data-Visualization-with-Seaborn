@@ -63,3 +63,18 @@ JointGrid is the general version for jointplot() type grids
 # Regression Plots
 
 implot: markers, grids, aspect and size
+
+
+# Style and Color
+
+sns.set_style('whitegrid')
+
+sns.despine()
+
+plt.figure(figsize=(12,3))
+
+sns.lmplot(x='total_bill',y='tip',size=5,aspect=5,data=tips)
+
+sns.set_context('notebook',font_scale=1)
+
+
