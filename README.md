@@ -32,3 +32,10 @@ swarmplot
 barplot
 
 countplot
+
+
+# Matrix Plots
+
+heatmap
+
+clustermap
