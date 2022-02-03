@@ -13,3 +13,22 @@ pairplot
 rugplot
 
 kdeplot
+
+
+# Categorical Data Plots
+
+To plot categorical data: 
+
+factorplot
+
+boxplot
+
+violinplot
+
+stripplot
+
+swarmplot
+
+barplot
+
+countplot
