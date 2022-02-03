@@ -59,3 +59,7 @@ g = g.map(plt.scatter, "total_bill", "tip").add_legend()
 
 JointGrid is the general version for jointplot() type grids
 
+
+# Regression Plots
+
+implot: markers, grids, aspect and size
